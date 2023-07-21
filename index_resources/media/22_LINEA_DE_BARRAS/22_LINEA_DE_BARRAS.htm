@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraLineas-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title></title>
+<link type="text/css" href="22_LINEA_DE_BARRAS_resources/css/ardoraLineas.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="22_LINEA_DE_BARRAS_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="22_LINEA_DE_BARRAS_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="22_LINEA_DE_BARRAS_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="22_LINEA_DE_BARRAS_resources/js/ardoraLineasCFG.js"></script>
+<script language="javascript" type="text/javascript" src="22_LINEA_DE_BARRAS_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="22_LINEA_DE_BARRAS_resources/js/ardoraLineas.js"></script>
+<script language="javascript" type="text/javascript" src="22_LINEA_DE_BARRAS_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="22_LINEA_DE_BARRAS_resources/media/bien_ardora.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="22_LINEA_DE_BARRAS_resources/media/mal_ardora.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:16px;color:#FF8000"><b>SELECCIONAR LA ALTURA A LA QUE HABITAN LOS ANIMALES</b></SPAN></div>
+  <div id="ardoraTit">UBICA LOS VALORES DE m.s.m.</div>
+  <div id="ardoraContainer">
+  <div id="ardoraAct">
+<canvas id="ardoraAxes" aria-label="Coordinate axes" width="500px" height="300px"></canvas>
+<canvas id="ardoraGraph" aria-label="" width="500px" height="300px"></canvas>
+<svg id="s_pointer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="300px"></svg>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraData"><table width="500" border="0">
+<tr><td class="nB">&nbsp;</td><td class="nB">&nbsp;</td>
+<td class="nB">PERRO</td>
+<td class="nB">CONEJO</td>
+<td class="nB">VACA</td>
+<td class="nB">LEON</td>
+<td class="nB">GATO</td>
+<td class="nB">SAPO</td>
+<td class="nB">ELEFANTE</td>
+<td class="nB">ALPACA</td>
+<td class="nB">CERDO</td>
+</tr>
+<tr><td id="c1">&nbsp;</td><td class="nB">METROS SOBRE EL NIVEL DEL MAR</td>
+<td id="1_1">1050</td>
+<td id="1_2">1800</td>
+<td id="1_3">1600</td>
+<td id="1_4">1300</td>
+<td id="1_5">1200</td>
+<td id="1_6">1000</td>
+<td id="1_7">1600</td>
+<td id="1_8">1800</td>
+<td id="1_9">1300</td>
+</tr>
+</table></div>
+</div>
+<div id="ardoraTab">
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+</body></html>

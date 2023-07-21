@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraDamero-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title></title>
+<link type="text/css" href="08_DAMERO_resources/css/ardoraDamero.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="08_DAMERO_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="08_DAMERO_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="08_DAMERO_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="08_DAMERO_resources/js/ardoraDameroCFG.js"></script>
+<script language="javascript" type="text/javascript" src="08_DAMERO_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="08_DAMERO_resources/js/ardoraDamero.js"></script>
+<script language="javascript" type="text/javascript" src="08_DAMERO_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="08_DAMERO_resources/media/bien_ardora.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="08_DAMERO_resources/media/mal_ardora.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:16px;color:#FF8000"><b>DESCUBRE LA PALABRA DE ACUERDO A LA DESCIPCION</b></SPAN></div>
+  <div id="ardoraAct">
+  <table  id="tableDam">
+<tr>
+<td class="topLet"></td>
+<td class="topLet" id="letT1">A</td>
+<td class="topLet" id="letT2">B</td>
+<td class="topLet" id="letT3">C</td>
+<td class="topLet" id="letT4">D</td>
+<td class="topLet" id="letT5">E</td>
+<td class="topLet" id="letT6">F</td>
+<td class="topLet" id="letT7">G</td>
+<td class="topLet" id="letT8">H</td>
+<td class="topLet" id="letT9">I</td>
+<td class="topLet" id="letT10">J</td>
+<td class="topLet" id="letT11">K</td>
+<td class="topLet" id="letT12">L</td>
+</tr>
+<tr>
+<td class="topLet" id="numL1">1</td>
+<td class="damCell" id="c1_1"><input id="ic1_1" name="ic1_1" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_2"><input id="ic1_2" name="ic1_2" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_3"><input id="ic1_3" name="ic1_3" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_4"><input id="ic1_4" name="ic1_4" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_5"><input id="ic1_5" name="ic1_5" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_6"><input id="ic1_6" name="ic1_6" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_7"><input id="ic1_7" name="ic1_7" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_8"><input id="ic1_8" name="ic1_8" type="text" class="cell" maxlength="1"/></td>
+<td class="blackCell"></td>
+<td class="damCell" id="c1_10"><input id="ic1_10" name="ic1_10" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_11"><input id="ic1_11" name="ic1_11" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c1_12"><input id="ic1_12" name="ic1_12" type="text" class="cell" maxlength="1"/></td>
+</tr>
+<tr>
+<td class="topLet" id="numL2">2</td>
+<td class="blackCell"></td>
+<td class="damCell" id="c2_2"><input id="ic2_2" name="ic2_2" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c2_3"><input id="ic2_3" name="ic2_3" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c2_4"><input id="ic2_4" name="ic2_4" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c2_5"><input id="ic2_5" name="ic2_5" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c2_6"><input id="ic2_6" name="ic2_6" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c2_7"><input id="ic2_7" name="ic2_7" type="text" class="cell" maxlength="1"/></td>
+<td class="damCell" id="c2_8"><input id="ic2_8" name="ic2_8" type="text" class="cell" maxlength="1"/></td>
+<td class="topLet"></td>
+<td class="topLet"></td>
+<td class="topLet"></td>
+<td class="topLet"></td>
+</tr>
+  </table>
+<div id="ardoraQue"></div>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="49"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+</body></html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoranumGra-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title></title>
+<link type="text/css" href="27_CRUCIGRAMA_resources/css/ardoranumGra.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="27_CRUCIGRAMA_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="27_CRUCIGRAMA_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="27_CRUCIGRAMA_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="27_CRUCIGRAMA_resources/js/ardoranumGraCFG.js"></script>
+<script language="javascript" type="text/javascript" src="27_CRUCIGRAMA_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="27_CRUCIGRAMA_resources/js/ardoranumGra.js"></script>
+<script language="javascript" type="text/javascript" src="27_CRUCIGRAMA_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="27_CRUCIGRAMA_resources/media/bien_ardora.mp3" type="audio/mp3">
+</audio>
+<audio id="audioIntentos">
+<source src="27_CRUCIGRAMA_resources/media/mal_ardora.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="27_CRUCIGRAMA_resources/media/mal_ardora.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:16px;color:#FF8000"><b>UBICA  LOS SIGNOS ACORDE A LAS OPERACINES Y RESULTADO</b></SPAN></div>
+  <div id="ardoraAct">
+  <table  id="tableNG">
+<tr>
+<td id="s0_0">10</td>
+<td class="ngCell" id="sel1_0"><select id="selc1_0" name="selc1_0" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s2_0">6</td>
+<td class="ngCell" id="sel3_0"><select id="selc3_0" name="selc3_0" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s4_0">2</td>
+<td class="ngCell" id="sel5_0"><select id="selc5_0" name="selc5_0" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s6_0">1</td>
+<td class="sol" id="r7_0">5</td>
+</tr>
+<tr>
+<td class="ngCell" id="sel0_1"><select id="selc0_1" name="selc0_1" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b1_1"></td>
+<td class="ngCell" id="sel2_1"><select id="selc2_1" name="selc2_1" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b3_1"></td>
+<td class="ngCell" id="sel4_1"><select id="selc4_1" name="selc4_1" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b5_1"></td>
+<td class="ngCell" id="sel6_1"><select id="selc6_1" name="selc6_1" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b7_1"></td>
+</tr>
+<tr>
+<td id="s0_2">12</td>
+<td class="ngCell" id="sel1_2"><select id="selc1_2" name="selc1_2" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s2_2">1</td>
+<td class="ngCell" id="sel3_2"><select id="selc3_2" name="selc3_2" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s4_2">2</td>
+<td class="ngCell" id="sel5_2"><select id="selc5_2" name="selc5_2" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s6_2">4</td>
+<td class="sol" id="r7_2">15</td>
+</tr>
+<tr>
+<td class="ngCell" id="sel0_3"><select id="selc0_3" name="selc0_3" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b1_3"></td>
+<td class="ngCell" id="sel2_3"><select id="selc2_3" name="selc2_3" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b3_3"></td>
+<td class="ngCell" id="sel4_3"><select id="selc4_3" name="selc4_3" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b5_3"></td>
+<td class="ngCell" id="sel6_3"><select id="selc6_3" name="selc6_3" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b7_3"></td>
+</tr>
+<tr>
+<td id="s0_4">2</td>
+<td class="ngCell" id="sel1_4"><select id="selc1_4" name="selc1_4" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s2_4">15</td>
+<td class="ngCell" id="sel3_4"><select id="selc3_4" name="selc3_4" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s4_4">4</td>
+<td class="ngCell" id="sel5_4"><select id="selc5_4" name="selc5_4" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s6_4">6</td>
+<td class="sol" id="r7_4">-15</td>
+</tr>
+<tr>
+<td class="ngCell" id="sel0_5"><select id="selc0_5" name="selc0_5" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b1_5"></td>
+<td class="ngCell" id="sel2_5"><select id="selc2_5" name="selc2_5" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b3_5"></td>
+<td class="ngCell" id="sel4_5"><select id="selc4_5" name="selc4_5" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b5_5"></td>
+<td class="ngCell" id="sel6_5"><select id="selc6_5" name="selc6_5" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td class="blackCell" id="b7_5"></td>
+</tr>
+<tr>
+<td id="s0_6">2</td>
+<td class="ngCell" id="sel1_6"><select id="selc1_6" name="selc1_6" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s2_6">7</td>
+<td class="ngCell" id="sel3_6"><select id="selc3_6" name="selc3_6" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s4_6">1</td>
+<td class="ngCell" id="sel5_6"><select id="selc5_6" name="selc5_6" type="text" class="cell"><option value="+">+</option><option value="-">-</option><option value="*">*</option><option value="/">/</option></select></td>
+<td id="s6_6">7</td>
+<td class="sol" id="r7_6">15</td>
+</tr>
+<tr>
+<td class="sol" id="r0_7">26</td>
+<td class="blackCell" id="b1_7"></td>
+<td class="sol" id="r2_7">29</td>
+<td class="blackCell" id="b3_7"></td>
+<td class="sol" id="r4_7">9</td>
+<td class="blackCell" id="b5_7"></td>
+<td class="sol" id="r6_7">18</td>
+<td class="blackCell" id="b7_7"></td>
+</tr>
+   </table>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="98"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+</body></html>
